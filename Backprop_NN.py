@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
     plt.figure(figsize=(8, 5))
     plt.plot(losses, color="#1D9E75", linewidth=1.5)
-    plt.yscale("log")              # ← ここがポイント
+    plt.yscale("log")             
     plt.xlabel("Epoch")
     plt.ylabel("MSE (log scale)")
     plt.title("Training Loss Curve")
